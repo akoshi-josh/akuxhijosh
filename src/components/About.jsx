@@ -44,7 +44,7 @@ export default function About() {
         <div className="reveal w-12 h-px bg-gradient-to-r from-[#5b9bd5] to-transparent mb-12" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-          {/* Text */}
+          
           <div className="reveal space-y-4 text-[#9aafc8] leading-relaxed text-sm">
             <p>
               Hi! I'm <span className="text-[#7ec8e3] font-semibold">Josh Ralph Singson</span>, a 22-year-old
@@ -60,7 +60,7 @@ export default function About() {
               <span className="text-[#7ec8e3]">PostgreSQL</span>, I build with precision and passion.
             </p>
 
-            {/* Terminal info */}
+            
             <div className="mt-6 p-4 bg-[#0d1017]/80 border border-[#5b9bd5]/12 font-mono text-xs space-y-2">
               <p className="text-[#3d4f6b]">// system.info</p>
               {[
@@ -82,7 +82,7 @@ export default function About() {
             </div>
           </div>
 
-          {/* Stats */}
+     
           <div className="grid grid-cols-2 gap-4">
             {stats.map((s, i) => (
               <div key={s.label}
