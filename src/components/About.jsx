@@ -62,7 +62,7 @@ export default function About() {
 
             
             <div className="mt-6 p-4 bg-[#0d1017]/80 border border-[#5b9bd5]/12 font-mono text-xs space-y-2">
-              <p className="text-[#3d4f6b]">// system.info</p>
+              <p className="text-[#3d4f6b]">{/* system.info */}</p>
               {[
                 ['name', 'Josh Ralph Singson'],
                 ['age', '22'],
