@@ -1,4 +1,3 @@
-cat > netlify.toml << 'EOF'
 [build]
   publish = "public"
   functions = "netlify/functions"
@@ -12,4 +11,3 @@ cat > netlify.toml << 'EOF'
   from = "/*"
   to = "/index.html"
   status = 200
-EOF
